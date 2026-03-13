@@ -7,7 +7,7 @@ COPY . /app
 
 WORKDIR /app
 
-RUN pip install --editable .
+RUN pip install -r requirements.txt
 
 RUN flask init-db
 
