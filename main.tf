@@ -7,11 +7,11 @@
 #2 EC2 instance detail 
 
 resource "aws_instance" "ec2_instance" { 
-ami  = "ami-04f5097609382b1bb""  
+ami  = "ami-04f5097609382b1bb"
 
 instance_type = "t3.micro"   
 
- tags ={
+ tags = {               
  Name = "devOpsServer"
  }
 }    
